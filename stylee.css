@@ -1,0 +1,70 @@
+body{
+    
+    background: -moz-radial-gradient(center, ellipse cover,  #000000 1%, #cccccc 100%); 
+    background: -webkit-gradient(radial, center center, 0px, center center, 100%, color-stop(1%,#000000), color-stop(100%,#cccccc));
+    background: -webkit-radial-gradient(center, ellipse cover,  #000000 1%,#cccccc 100%); 
+    background: -o-radial-gradient(center, ellipse cover,  #000000 1%,#cccccc 100%); 
+    background: -ms-radial-gradient(center, ellipse cover,  #000000 1%,#cccccc 100%);
+    background: radial-gradient(ellipse at center,  #000000 1%,#cccccc 100%); 
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#000000', endColorstr='#cccccc',GradientType=1 ); 
+    height:calc(100vh);
+    margin: 0;
+    padding: 0;
+    background-size: cover;
+}
+.login-box{
+  width: 280px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%,-50%);
+  color: white;
+}
+.login-box h1{
+  float: left;
+  font-size: 40px;
+  border-bottom: 6px solid #4caf50;
+  margin-bottom: 50px;
+  padding: 13px 0;
+}
+.textbox{
+  width: 100%;
+  overflow: hidden;
+  font-size: 20px;
+  padding: 8px 0;
+  margin: 8px 0;
+  border-bottom: 1px solid #4caf50;
+}
+.textbox i{
+  margin-right: 4px;
+}
+.textbox input{
+  border: none;
+  outline: none;
+  background: none;
+  color: white;
+  font-size: 18px;
+  width: 80%;
+  float: left;
+  margin: 0 10px;
+}
+.register{
+  float:right;
+  margin-top: 20px;
+}
+.login{
+  margin-top: 10px;
+}
+input{
+  background:#2C97DF;
+  color:white;
+  border-top:0;
+  border-left:0;
+  border-right:0;
+  border-bottom:5px solid #2A80B9;
+  padding:10px 20px;
+  text-decoration:none;
+  font-family:sans-serif;
+  font-size:11pt;
+}
+
